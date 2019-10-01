@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="math-api:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>math-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="math-api-1.0.0.war">
+      <element id="artifact" artifact-name="math-api:war exploded" />
+    </root>
+  </artifact>
+</component>
